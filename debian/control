@@ -1,0 +1,12 @@
+Source: ros-hydro-graph-msgs
+Section: misc
+Priority: extra
+Maintainer: Dave Coleman <davetcoleman@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-geometry-msgs, ros-hydro-message-generation, ros-hydro-std-msgs
+Homepage: https://github.com/davetcoleman/graph_msgs
+Standards-Version: 3.9.2
+
+Package: ros-hydro-graph-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-geometry-msgs, ros-hydro-message-runtime, ros-hydro-std-msgs
+Description: ROS messages for publishing graphs of different data types
